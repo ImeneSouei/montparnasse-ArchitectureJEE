@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
+<title>Personne</title>
+</head>
+<body>
+
+
+	<section class="container">
+
+	
+
+		<div>
+			<form action="ServletPersonne">
+			<h1 	id="pos">Récupération des infos</h1>
+			
+			
+				<!--action="/URL" et 'Post' pour envoyer les informations-->
+				<div class="form-group row">
+					<label for="Id" class="col-sm-2 col-form-label">Id</label>
+					<div class="col-sm-10">
+						<input type="Id" class="form-control" id="Id" placeholder="Id" name="Id" required>
+					</div>
+				</div>
+				<div>
+					<div class="form-group row">
+						<label for="Nom" class="col-sm-2 col-form-label">Nom</label>
+						<div class="col-sm-10">
+							<input type="nom" class="form-control" id="nom" name="nom"
+								placeholder="nom" required>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="form-group row">
+						<label for="prenom" class="col-sm-2 col-form-label">Prenom</label>
+						<div class="col-sm-10">
+							<input type="prenom" class="form-control" id="prenom" name="prenom"
+								placeholder="prenom" required>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="form-group row">
+						<label for="age" class="col-sm-2 col-form-label">Age</label>
+						<div class="col-sm-10">
+							<input type="age" class="form-control" id="age" placeholder="age" name="age" required>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<button type="submit">ajouter</button>
+
+				</div>
+			</form>
+
+		</div>
+	</section>
+
+
+</body>
+</html>
